@@ -41,13 +41,11 @@ def analyze_choice(fn,choice):
         choice=get_user_choice()
     print()
     print("YOU ARE RIGHT!")
-    # print("{: >4s}{}".format("",'You are right!'))
     print()
     print("{: >4s}{}".format("",fn()[1]))
     print()
     print("{: >4s}{}".format("",fn()[2]))
     print()
-    # print("{: >4s}{}".format("",fn()[3]))
 
 def choose_problem():
     sample = random.sample(problem_list,1)

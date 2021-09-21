@@ -1,15 +1,15 @@
 import data_quiz as d
 
-def problem_one():
-    """ print an undefined identifier"""
-    problem="""
+# def problem_one():
+    # """ print an undefined identifier"""
+    # problem="""
    
-    {: >4s} {}?
+    # {: >4s} {}?
    
-    """.format("", d.explanation['j'][1])
-    answer=('j', d.explanation['j'][1])
-    answer_explanation = "{} // {}".format(d.example['j'][0], d.example['j'][1])
-    return(problem, answer, answer_explanation)
+    # """.format("", d.explanation['j'][1])
+    # answer=('j', d.explanation['j'][1])
+    # answer_explanation = "{} // {}".format(d.example['j'][0], d.example['j'][1])
+    # return(problem, answer, answer_explanation)
 
 def problem_maker(key):
     """ print an undefined identifier"""
