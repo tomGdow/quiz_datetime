@@ -1,9 +1,5 @@
 import problems_quiz as p
 
-# errors = {"A": 'NameError', "B": 'ValueError', "C": "TypeError", "D": "IndexError",
-        # "E": "KeyError", "F":"SyntaxError", "G": "ZeroDivisionError", "H": "AttributeError"}
-
-
 codes = {
         "a": "%a",
         "A": "%A",

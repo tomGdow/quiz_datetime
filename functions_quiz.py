@@ -62,7 +62,6 @@ def display_problem(problem, question_counter, total_questions):
     choice=get_user_choice()
     analyze_choice(problem,choice)
 
-# continue_choice=True        
 
 def continue_choice():
     continue_choice=True        
