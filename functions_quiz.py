@@ -1,5 +1,6 @@
 import os
 import random
+import sys
 
 import data_quiz as d
 import problems_quiz as p
