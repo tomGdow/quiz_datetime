@@ -5,7 +5,10 @@ import data_quiz as d
 import problems_quiz as p
 
 def opening_msg():
-    os.system('cls')
+    if sys.platform == 'win32':
+        os.system('cls')
+    else:
+        os.system('clear')
     print("What is the strftime format for the following?")
 
 def options_msg():
